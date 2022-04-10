@@ -24,7 +24,7 @@
   display: block;
   margin: auto;
   width: 100%;
-  max-width:100%;
+  max-width: 100%;
   height: auto;
 }
 @media (max-width: 576px) {
@@ -48,7 +48,18 @@
   width: 90%;
   max-width: 1000px;
   margin: auto;
-  display: grid;
+  text-align: center;
+}
+#trailer{
+  margin: 20px;
+}
+h2{
+  margin: 20px;
+}
+.libraryMusic {
+  display: flex;
+  gap: 20px;
+  margin: 20px;
 }
 footer {
   font-family: "Roboto", sans-serif;
