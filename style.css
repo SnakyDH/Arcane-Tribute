@@ -19,18 +19,12 @@
   font-family: "Pacifico", cursive;
   font-size: 40px;
 }
-
 #image {
   display: block;
   margin: auto;
   width: 100%;
   max-width: 100%;
   height: auto;
-}
-@media (max-width: 576px) {
-  #image {
-    height: 50%;
-  }
 }
 #img-caption {
   font-family: "Roboto", sans-serif;
@@ -50,13 +44,13 @@
   margin: auto;
   text-align: center;
 }
-#trailer{
+#trailer {
   margin: 20px;
 }
-h2{
+h2 {
   margin: 20px;
 }
-ul{
+ul {
   list-style: none;
 }
 .libraryMusic {
@@ -76,4 +70,31 @@ footer {
 }
 a:hover {
   color: #fff;
+}
+@media screen and (max-width: 576px) {
+  #image {
+    height: 50%;
+  }
+}
+@media screen and (max-width: 800px) {
+  #img-caption {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    font-weight: 1000;
+    padding-right: 20px;
+  }
+}
+@media screen and (max-width: 580px) {
+  #trailer {
+    width: 336px;
+    height:189px;
+  }
+  .libraryMusic {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
 }
